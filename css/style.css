@@ -141,6 +141,7 @@ h6 {
 }
 .header__logo {
   margin: 35px 0;
+  margin-right: 10px;
 }
 .header__main {
   display: flex;
@@ -232,6 +233,7 @@ h6 {
     top: 30px;
     transition: left 0.3s ease;
     background: url("../img/logo-black.svg") no-repeat;
+    margin: 10px;
   }
 }
 @media (max-width: 47.99875em) {
@@ -445,6 +447,7 @@ h6 {
   display: flex;
   margin: 0 -20px;
   row-gap: 40px;
+  flex-wrap: wrap;
 }
 @media (max-width: 61.99875em) {
   .advantages__items {
@@ -454,16 +457,6 @@ h6 {
 
 .advantages__item {
   padding: 0 20px;
-}
-
-.item-advantages__body {
-  background: #F9FBFD;
-  padding: 30px 42px 50px 30px;
-  height: 100%;
-  transition: all 0.3s ease;
-}
-.item-advantages__body:hover {
-  background: #d6d8da;
 }
 
 .item-advantages {
@@ -480,6 +473,16 @@ h6 {
   .item-advantages {
     flex: 0 1 100%;
   }
+}
+
+.item-advantages__body {
+  background: #F9FBFD;
+  padding: 30px 42px 50px 30px;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.item-advantages__body:hover {
+  background: #d6d8da;
 }
 
 .item-advantages__images {
